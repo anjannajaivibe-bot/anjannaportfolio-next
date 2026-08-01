@@ -809,3 +809,5 @@ h2 { font-size: clamp(2.35rem, 4vw, 4rem); line-height: 1.04; }
   .executive-brief { padding: 26px 22px; }
   .impact, .about, .expertise, .journey, .case-studies, .ventures { padding-block: 64px; }
 }
+
+/* Production deployment refresh: 2026-08-01 */
