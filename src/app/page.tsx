@@ -204,22 +204,16 @@ export default function Home() {
               <div><dt>22</dt><dd>Stores in expanded region</dd></div>
             </dl>
           </div>
-          <div className="portrait-wrap">
-            <div className="portrait-frame">
-              <Image
-                src="/images/anjanna-margam.jpg"
-                alt="Anjanna Margam, retail strategist and digital growth leader"
-                width={1080}
-                height={1477}
-                priority
-                sizes="(max-width: 800px) 82vw, 38vw"
-              />
-            </div>
-            <div className="role-card">
-              <span>Current focus</span>
-              <strong>Marketing Manager, Supraja Group</strong>
-            </div>
-          </div>
+          <aside className="executive-brief" aria-label="Professional profile summary">
+            <p>Executive profile</p>
+            <h2>Commercial discipline. Practical digital execution.</h2>
+            <dl>
+              <div><dt>Current focus</dt><dd>Marketing Manager, Supraja Group</dd></div>
+              <div><dt>International scope</dt><dd>India and six Middle Eastern markets</dd></div>
+              <div><dt>Consulting areas</dt><dd>Retail planning, digital growth and business transformation</dd></div>
+            </dl>
+            <a href="#impact">View selected impact <span aria-hidden="true">↓</span></a>
+          </aside>
         </section>
 
         <section className="impact section-shell" id="impact">
@@ -285,13 +279,10 @@ export default function Home() {
           <div className="journey-intro">
             <p className="section-label">Career journey</p>
             <h2>A career defined by continuous reinvention</h2>
-            <Image
-              src="/images/anjanna-career-journey.webp"
-              alt="Visual summary of Anjanna Margam's professional career journey"
-              width={2048}
-              height={2048}
-              sizes="(max-width: 900px) 100vw, 34vw"
-            />
+            <p className="journey-summary">
+              From teaching in Telangana to merchandise leadership in the Gulf,
+              followed by entrepreneurship and digital growth work in India.
+            </p>
           </div>
           <ol className="timeline">
             {timeline.map((item) => (
