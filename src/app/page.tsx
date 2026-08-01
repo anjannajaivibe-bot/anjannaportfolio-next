@@ -11,7 +11,7 @@ const skills = [
   },
   {
     title: "Digital Growth",
-    text: "SEO, paid campaigns, landing pages, content strategy and conversion-focused websites.",
+    text: "Next.js, WordPress, SEO, paid campaigns, landing pages, CRM workflows and performance analytics.",
   },
   {
     title: "Business Leadership",
@@ -19,18 +19,77 @@ const skills = [
   },
 ];
 
+const impact = [
+  {
+    value: "SAR 0.6B",
+    label: "Sales and buying budgets managed",
+    context: "Max Fashion, Eastern Region, Saudi Arabia",
+  },
+  {
+    value: "5 to 22",
+    label: "Stores supported through regional expansion",
+    context: "Planning, allocation and replenishment",
+  },
+  {
+    value: "119",
+    label: "Store operations represented in the portfolio",
+    context: "Multi-brand planning exposure at Beside Group",
+  },
+  {
+    value: "6",
+    label: "Middle Eastern markets",
+    context: "Saudi Arabia, UAE, Kuwait, Bahrain, Qatar and Egypt",
+  },
+];
+
+const caseStudies = [
+  {
+    number: "01",
+    title: "Regional retail expansion",
+    organisation: "Max Fashion, Saudi Arabia",
+    challenge:
+      "Support a rapidly growing regional store network while maintaining disciplined buying, allocation and inventory control.",
+    action:
+      "Managed merchandise planning, OTB, forecasting, pricing, margin, replenishment and ageing control across the Eastern Region.",
+    outcome:
+      "Managed sales and buying budgets of SAR 0.6 billion and supported expansion from 5 to 22 stores.",
+  },
+  {
+    number: "02",
+    title: "Multi-brand commercial planning",
+    organisation: "Beside Group, Dubai",
+    challenge:
+      "Balance stock, margin and seasonal performance across an international fashion portfolio operating in six markets.",
+    action:
+      "Led sales and buying forecasts, P&L support, OTB, assortment planning, promotions, stock balancing and performance reviews.",
+    outcome:
+      "Planning exposure across a portfolio representing 119 store operations in Saudi Arabia, UAE, Kuwait, Bahrain, Qatar and Egypt.",
+  },
+  {
+    number: "03",
+    title: "Digital growth systems",
+    organisation: "JaiVibe and Sri Supraja Infracon",
+    challenge:
+      "Turn fragmented websites, campaigns and lead follow-up into practical, measurable digital workflows for growing businesses.",
+    action:
+      "Built and improved Next.js websites, SEO programs, landing pages, Supabase-backed CRM processes, lead tracking and performance dashboards.",
+    outcome:
+      "Created integrated digital foundations supporting visibility, lead management and day-to-day marketing decisions across real estate, hospitality, healthcare and local services.",
+  },
+];
+
 const timeline = [
   {
     years: "Present",
-    role: "Marketing Manager, Supraja Group",
+    role: "Marketing Manager & Digital Growth Strategist, Supraja Group",
     detail:
-      "Leading digital marketing, brand visibility, lead generation and growth initiatives across real estate and hospitality.",
+      "Leading investor-focused marketing, brand visibility, SEO, lead generation, CRM improvement and growth initiatives across real estate and hospitality.",
   },
   {
     years: "2020 - Present",
-    role: "Founder, JaiVibe",
+    role: "Founder & Digital Growth Strategist, JaiVibe",
     detail:
-      "Building performance-focused websites and digital marketing systems for growing Indian businesses.",
+      "Building performance-focused websites, SEO programs, campaign funnels and lead-management systems for growing Indian businesses.",
   },
   {
     years: "2022 - Present",
@@ -46,18 +105,18 @@ const timeline = [
   },
   {
     years: "2015 - 2020",
-    role: "Merchandise Planning Manager, Beside Group",
+    role: "Retail & Merchandise Planner, Beside Group",
     detail:
-      "Managed planning, stock flow and commercial performance for global fashion brands across six Gulf markets.",
+      "Managed P&L support, OTB, assortment planning, stock flow and commercial performance for global fashion brands across six Middle Eastern markets.",
   },
   {
-    years: "2005 - 2015",
-    role: "Inventory & Planning, Landmark Group",
+    years: "2004 - 2015",
+    role: "Senior Merchandise Planner & Inventory Controller, Landmark Group",
     detail:
-      "Progressed through retail operations and planning while supporting the expansion of Max stores in Saudi Arabia.",
+      "Managed SAR 0.6 billion in sales and buying budgets while supporting Max Fashion's Eastern Region expansion from 5 to 22 stores.",
   },
   {
-    years: "1997 - 2005",
+    years: "1997 - 2004",
     role: "Teacher to Overseas Professional",
     detail:
       "Began as a government teacher in Telangana, then moved to Saudi Arabia and built a career through persistence.",
@@ -73,7 +132,7 @@ const personSchema = {
     "https://anjannaportfolio.jaivibe.com/images/anjanna-margam.jpg",
   jobTitle: "Marketing Manager and Digital Growth Strategist",
   worksFor: { "@type": "Organization", name: "Supraja Group" },
-  sameAs: ["https://www.linkedin.com/in/anjanna-margam"],
+  sameAs: ["https://www.linkedin.com/in/anjanna-margam-b8076241"],
   knowsAbout: [
     "Retail merchandise planning",
     "Digital marketing",
@@ -98,6 +157,7 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#about">About</a>
+          <a href="#impact">Impact</a>
           <a href="#expertise">Expertise</a>
           <a href="#journey">Journey</a>
           <a href="#ventures">Ventures</a>
@@ -124,17 +184,24 @@ export default function Home() {
               </a>
               <a
                 className="button button-secondary"
-                href="https://www.linkedin.com/in/anjanna-margam"
+                href="/Anjanna_Margam_Consulting_Resume.pdf"
+                download
+              >
+                Download resume
+              </a>
+              <a
+                className="text-link"
+                href="https://www.linkedin.com/in/anjanna-margam-b8076241"
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn profile
+                View LinkedIn <span aria-hidden="true">↗</span>
               </a>
             </div>
             <dl className="hero-stats">
               <div><dt>20+</dt><dd>Years of experience</dd></div>
               <div><dt>6</dt><dd>Gulf markets</dd></div>
-              <div><dt>4</dt><dd>Growth domains</dd></div>
+              <div><dt>22</dt><dd>Stores in expanded region</dd></div>
             </dl>
           </div>
           <div className="portrait-wrap">
@@ -153,6 +220,26 @@ export default function Home() {
               <strong>Marketing Manager, Supraja Group</strong>
             </div>
           </div>
+        </section>
+
+        <section className="impact section-shell" id="impact">
+          <p className="section-label">Selected professional impact</p>
+          <div className="section-heading">
+            <h2>Experience measured by scale and responsibility</h2>
+            <p>Verified career evidence from international retail planning and business growth.</p>
+          </div>
+          <div className="impact-grid">
+            {impact.map((item) => (
+              <article className="impact-card" key={item.value}>
+                <strong>{item.value}</strong>
+                <h3>{item.label}</h3>
+                <p>{item.context}</p>
+              </article>
+            ))}
+          </div>
+          <p className="impact-note">
+            The 119 figure represents the store operations listed across the multi-brand portfolio, not a claim of direct ownership of every store.
+          </p>
         </section>
 
         <section className="about section-shell" id="about">
@@ -219,6 +306,32 @@ export default function Home() {
           </ol>
         </section>
 
+        <section className="case-studies section-shell" id="case-studies">
+          <p className="section-label">Selected case studies</p>
+          <div className="section-heading">
+            <h2>From complex challenges to practical execution</h2>
+            <p>Three examples connecting commercial judgement, hands-on action and evidence.</p>
+          </div>
+          <div className="case-study-list">
+            {caseStudies.map((item) => (
+              <article className="case-study" key={item.number}>
+                <div className="case-title">
+                  <span>{item.number}</span>
+                  <div>
+                    <p>{item.organisation}</p>
+                    <h3>{item.title}</h3>
+                  </div>
+                </div>
+                <dl>
+                  <div><dt>Challenge</dt><dd>{item.challenge}</dd></div>
+                  <div><dt>Action</dt><dd>{item.action}</dd></div>
+                  <div><dt>Evidence</dt><dd>{item.outcome}</dd></div>
+                </dl>
+              </article>
+            ))}
+          </div>
+        </section>
+
         <section className="ventures section-shell" id="ventures">
           <p className="section-label">Entrepreneurial ventures</p>
           <div className="section-heading">
@@ -259,11 +372,12 @@ export default function Home() {
           <p className="section-label">Let&apos;s connect</p>
           <h2>Ready for the next meaningful collaboration.</h2>
           <p>
-            For business partnerships, strategic marketing, retail planning or
-            growth conversations, reach me directly.
+            Available for senior consulting, advisory and leadership conversations
+            in retail planning, digital growth, real estate marketing and business transformation.
           </p>
           <div className="contact-actions">
             <a className="button button-primary" href="https://wa.me/919640753929" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a className="button button-secondary" href="/Anjanna_Margam_Consulting_Resume.pdf" download>Download resume</a>
             <a className="button button-secondary" href="mailto:anjumargams@gmail.com">Email me</a>
           </div>
           <div className="contact-meta">
@@ -289,15 +403,17 @@ export default function Home() {
           <div className="footer-column">
             <h3>Explore</h3>
             <a href="#about">About</a>
+            <a href="#impact">Selected impact</a>
             <a href="#expertise">Expertise</a>
             <a href="#journey">Career journey</a>
+            <a href="#case-studies">Case studies</a>
             <a href="#ventures">Ventures</a>
           </div>
           <div className="footer-column">
             <h3>Connect</h3>
             <a href="tel:+919640753929">+91 96407 53929</a>
             <a href="mailto:anjumargams@gmail.com">anjumargams@gmail.com</a>
-            <a href="https://www.linkedin.com/in/anjanna-margam" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/anjanna-margam-b8076241" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
         <div className="footer-bottom">

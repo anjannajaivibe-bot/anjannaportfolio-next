@@ -15,12 +15,22 @@ export const metadata: Metadata = {
     template: "%s | Anjanna Margam",
   },
   description:
-    "Professional portfolio of Anjanna Margam, a retail strategist, digital growth leader and entrepreneur with experience across India and the Gulf.",
+    "Anjanna Margam is a retail planning, business growth and digital marketing consultant with 20+ years of experience across India and the Middle East.",
+  keywords: [
+    "Anjanna Margam",
+    "retail planning consultant",
+    "merchandise planning consultant",
+    "digital growth strategist",
+    "real estate marketing consultant",
+    "Hyderabad business consultant",
+  ],
+  authors: [{ name: "Anjanna Margam", url: "/" }],
+  creator: "Anjanna Margam",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Anjanna Margam | Retail Strategist & Digital Growth Leader",
     description:
-      "From retail planning across the Gulf to digital growth and real estate marketing in India.",
+      "20+ years across retail planning, business growth, digital systems and real estate marketing in India and the Middle East.",
     url: "/",
     siteName: "Anjanna Margam Portfolio",
     images: [
@@ -38,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Anjanna Margam | Professional Portfolio",
     description:
-      "Retail strategy, digital growth, entrepreneurship and real estate marketing.",
+      "Retail planning, business growth, digital systems and real estate marketing backed by 20+ years of experience.",
     images: ["/images/anjanna-margam.jpg"],
   },
   robots: { index: true, follow: true },
