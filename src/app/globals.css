@@ -736,3 +736,76 @@ body {
   .footer-bottom a { display: inline-block; margin-top: 10px; }
   .floating-cta { right: 14px; bottom: 14px; }
 }
+
+/* Executive editorial refinement */
+.section-shell { width: min(1120px, calc(100% - 48px)); }
+
+.hero {
+  grid-template-columns: minmax(0, 1.32fr) minmax(310px, .68fr);
+  gap: clamp(48px, 7vw, 88px);
+  min-height: auto;
+  padding-block: clamp(72px, 9vw, 116px) 76px;
+}
+.hero-copy { max-width: 720px; }
+h1 { max-width: 720px; font-size: clamp(3.4rem, 5.7vw, 5.7rem); line-height: 1.01; }
+h1 span { color: #176e83; background: none; }
+.hero-lead { max-width: 650px; margin-top: 26px; }
+.hero-actions { margin-top: 28px; }
+.hero-stats { margin-top: 34px; }
+
+.executive-brief {
+  position: relative;
+  padding: 34px;
+  background: #f7fafc;
+  border: 1px solid rgba(29, 63, 88, .16);
+  border-top: 4px solid #176e83;
+  border-radius: 4px;
+  box-shadow: 0 22px 55px rgba(31, 65, 91, .09);
+}
+.executive-brief > p {
+  margin: 0 0 18px;
+  color: #08707b;
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.executive-brief h2 { font-size: clamp(1.8rem, 2.5vw, 2.55rem); line-height: 1.08; letter-spacing: -.035em; }
+.executive-brief dl { margin: 30px 0 0; }
+.executive-brief dl div { padding: 17px 0; border-top: 1px solid rgba(29, 63, 88, .11); }
+.executive-brief dt { color: #607487; font-size: .7rem; font-weight: 750; letter-spacing: .07em; text-transform: uppercase; }
+.executive-brief dd { margin: 5px 0 0; color: #173247; font-size: .92rem; font-weight: 650; line-height: 1.45; }
+.executive-brief > a { display: inline-block; margin-top: 22px; color: #08707b; font-size: .82rem; font-weight: 800; }
+
+.impact, .about, .expertise, .journey, .case-studies, .ventures { padding-block: 88px; }
+h2 { font-size: clamp(2.35rem, 4vw, 4rem); line-height: 1.04; }
+.section-heading { margin-bottom: 36px; }
+.impact-card { min-height: 220px; padding: 25px; border-radius: 8px; }
+.impact-card strong { font-size: clamp(2.15rem, 3.1vw, 3.15rem); }
+.impact-card h3 { margin-top: 35px; }
+.about { gap: 68px; }
+.about-copy { padding: 30px; border-radius: 8px; box-shadow: 0 15px 38px rgba(31,65,91,.07); }
+.skill-card { min-height: 235px; padding: 25px; border-radius: 8px; }
+.skill-card h3 { margin-top: 40px; }
+.journey { grid-template-columns: .72fr 1.28fr; gap: 68px; }
+.journey-summary { margin: 28px 0 0; color: #536679; font-size: 1rem; }
+.timeline li { padding: 21px 22px; border-radius: 8px; }
+.case-study { padding: 30px; border-radius: 8px; }
+.venture-card { min-height: 430px; border-radius: 8px; }
+.contact { margin-block: 76px; border-radius: 10px; }
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; padding-top: 58px; }
+  .executive-brief { max-width: 680px; }
+}
+
+@media (max-width: 580px) {
+  .section-shell { width: min(100% - 28px, 1120px); }
+  .hero { gap: 38px; padding-block: 48px 58px; }
+  h1 { font-size: clamp(2.75rem, 13vw, 4rem); }
+  .hero-actions .button { width: 100%; }
+  .text-link { margin-inline: auto; }
+  .hero-stats { grid-template-columns: 1fr; }
+  .executive-brief { padding: 26px 22px; }
+  .impact, .about, .expertise, .journey, .case-studies, .ventures { padding-block: 64px; }
+}
