@@ -11,11 +11,11 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL("https://anjannaportfolio.jaivibe.com"),
   title: {
-    default: "Anjanna Margam | Retail Strategist & Digital Growth Leader",
+    default: "Anjanna Margam | Global Retail Strategy & Digital Growth",
     template: "%s | Anjanna Margam",
   },
   description:
-    "Anjanna Margam is a retail planning, business growth and digital marketing consultant with 20+ years of experience across India and the Middle East.",
+    "Anjanna Margam is a retail strategy and digital growth leader with 20+ years of multinational experience in commercial planning and business transformation.",
   keywords: [
     "Anjanna Margam",
     "retail planning consultant",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   creator: "Anjanna Margam",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Anjanna Margam | Retail Strategist & Digital Growth Leader",
+    title: "Anjanna Margam | Global Retail Strategy & Digital Growth",
     description:
-      "20+ years across retail planning, business growth, digital systems and real estate marketing in India and the Middle East.",
+      "20+ years of multinational retail planning, commercial leadership, entrepreneurship and modern digital growth.",
     url: "/",
     siteName: "Anjanna Margam Portfolio",
     images: [
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anjanna Margam | Professional Portfolio",
+    title: "Anjanna Margam | Global Commerce Intelligence",
     description:
-      "Retail planning, business growth, digital systems and real estate marketing backed by 20+ years of experience.",
+      "Multinational retail planning, commercial leadership and digital growth backed by more than 20 years of experience.",
     images: ["/images/anjanna-margam.jpg"],
   },
   robots: { index: true, follow: true },
