@@ -170,8 +170,8 @@ export default function Home() {
           <div className="hero-copy">
             <p className="eyebrow">Retail Strategy • Digital Growth • Leadership</p>
             <h1>
-              Experience shaped by the Gulf.
-              <span> Vision focused on India.</span>
+              Global Retail Experience.
+              <span> Strategic Business Growth.</span>
             </h1>
             <p className="hero-lead">
               I am Anjanna Margam, a retail strategist, digital growth
