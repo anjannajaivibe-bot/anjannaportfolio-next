@@ -134,8 +134,8 @@ a:focus-visible { outline:3px solid var(--acid); outline-offset:4px; }
 }
 @media (max-width:620px) {
   .topbar{height:62px;padding-inline:18px}.topbar nav a:nth-child(1),.topbar nav a:nth-child(2){display:none}
-  .hero{padding:115px 20px 70px;min-height:920px}.hero-content{width:100%;max-width:100%}.kicker{max-width:220px}.hero h1{max-width:100%;margin-top:70px;font-size:clamp(3rem,14vw,4.1rem);line-height:.82;letter-spacing:-.085em}.hero h1>span{max-width:100%}.hero h1>span:nth-child(2){margin-left:0;font-size:.86em;letter-spacing:-.075em}.hero h1 em{margin:28px 0 0;font-size:.46em;letter-spacing:-.035em}
-  .hero-lower{margin-top:55px}.portrait-slice{top:28%;right:-12%;width:60vw;opacity:.28}.portrait-slice p{display:none}.hero-orbit{top:22%;right:18px;width:86px}.hero-footer,.hero-index{display:none}
+  .hero{padding:112px 20px 82px;min-height:auto}.hero-content{width:100%;max-width:100%}.kicker{max-width:220px}.hero h1{max-width:100%;margin-top:82px;font-size:clamp(3rem,14vw,4.1rem);line-height:.82;letter-spacing:-.085em}.hero h1>span{max-width:100%}.hero h1>span:nth-child(2){margin-left:0;font-size:.86em;letter-spacing:-.075em}.hero h1 em{margin:28px 0 0;font-size:.46em;letter-spacing:-.035em}
+  .hero-lower{margin-top:285px}.portrait-slice{top:410px;right:-22px;width:min(56vw,210px);opacity:.4}.portrait-slice p{display:none}.hero-orbit{top:148px;right:18px;width:82px}.hero-footer,.hero-index{display:none}
   .manifesto{grid-template-columns:1fr;padding:95px 20px}.vertical-label{display:none}.manifesto h2{margin-top:45px;font-size:3.3rem}.manifesto-copy{grid-template-columns:1fr;margin:60px 0 0;gap:20px}
   .data-stage,.world-stage,.chapters,.capabilities,.ventures{padding:90px 20px}.data-heading,.chapters-head,.ventures-head{display:block}.data-heading h2{margin-top:30px;font-size:3.5rem}
   .data-grid{grid-template-columns:1fr}.data-primary{grid-column:auto;min-height:430px!important}.data-primary p{margin-top:100px}.data-grid article{min-height:210px}.data-grid p{margin-top:50px}
