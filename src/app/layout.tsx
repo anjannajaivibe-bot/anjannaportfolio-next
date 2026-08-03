@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
+import VentureEnhancer from "./VentureEnhancer";
 import "./globals.css";
+import "./enhancements.css";
+import "./venture-enhancements.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const spaceGrotesk = Space_Grotesk({
@@ -11,34 +14,35 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL("https://anjannaportfolio.jaivibe.com"),
   title: {
-    default: "Anjanna Margam | Retail Strategist & Digital Growth Leader",
+    default: "Anjanna Margam | Marketing Executive, Retail Strategy & Digital Growth",
     template: "%s | Anjanna Margam",
   },
   description:
-    "Anjanna Margam is a retail planning, business growth and digital marketing consultant with 20+ years of experience across India and the Middle East.",
+    "Anjanna Margam is a Marketing Executive with nearly three decades of experience across multinational retail planning, digital growth, entrepreneurship and business transformation.",
   keywords: [
     "Anjanna Margam",
+    "Marketing Executive Hyderabad",
     "retail planning consultant",
     "merchandise planning consultant",
     "digital growth strategist",
-    "real estate marketing consultant",
-    "Hyderabad business consultant",
+    "real estate marketing professional",
+    "business transformation",
   ],
   authors: [{ name: "Anjanna Margam", url: "/" }],
   creator: "Anjanna Margam",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Anjanna Margam | Retail Strategist & Digital Growth Leader",
+    title: "Anjanna Margam | Marketing Executive & Digital Growth Strategist",
     description:
-      "20+ years across retail planning, business growth, digital systems and real estate marketing in India and the Middle East.",
+      "Nearly three decades across multinational retail planning, commercial strategy, entrepreneurship and modern digital execution.",
     url: "/",
     siteName: "Anjanna Margam Portfolio",
     images: [
       {
-        url: "/images/anjanna-margam.jpg",
-        width: 1080,
-        height: 1477,
-        alt: "Anjanna Margam",
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Anjanna Margam, Marketing Executive, Retail Strategy and Digital Growth",
       },
     ],
     locale: "en_IN",
@@ -46,12 +50,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anjanna Margam | Professional Portfolio",
+    title: "Anjanna Margam | Marketing Executive & Digital Growth Strategist",
     description:
-      "Retail planning, business growth, digital systems and real estate marketing backed by 20+ years of experience.",
-    images: ["/images/anjanna-margam.jpg"],
+      "Multinational retail planning, commercial strategy and digital growth backed by nearly three decades of professional experience.",
+    images: ["/opengraph-image"],
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: "22dab12206c3b2eb",
+  },
 };
 
 export default function RootLayout({
@@ -59,7 +66,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <VentureEnhancer />
+      </body>
     </html>
   );
 }
