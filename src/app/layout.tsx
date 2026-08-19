@@ -11,8 +11,10 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-display",
 });
 
+const SITE_URL = "https://anjannaportfolio.jaivibe.com";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://anjannaportfolio.jaivibe.com"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Anjanna Margam | Marketing Executive, Retail Strategy & Digital Growth",
     template: "%s | Anjanna Margam",
@@ -64,9 +66,53 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": `${SITE_URL}/#person`,
+        name: "Anjanna Margam",
+        url: SITE_URL,
+        image: `${SITE_URL}/opengraph-image`,
+        jobTitle: "Marketing Executive",
+        description:
+          "Marketing executive with experience in retail planning, commercial strategy, digital growth, entrepreneurship and business transformation.",
+        knowsAbout: [
+          "Retail merchandise planning",
+          "Marketing strategy",
+          "Digital growth",
+          "Real estate marketing",
+          "Business transformation",
+        ],
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}/#website`,
+        url: SITE_URL,
+        name: "Anjanna Margam Portfolio",
+        publisher: { "@id": `${SITE_URL}/#person` },
+        inLanguage: "en-IN",
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": `${SITE_URL}/#profilepage`,
+        url: SITE_URL,
+        name: "Anjanna Margam Professional Portfolio",
+        mainEntity: { "@id": `${SITE_URL}/#person` },
+        isPartOf: { "@id": `${SITE_URL}/#website` },
+        inLanguage: "en-IN",
+      },
+    ],
+  };
+
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
         {children}
         <VentureEnhancer />
       </body>
