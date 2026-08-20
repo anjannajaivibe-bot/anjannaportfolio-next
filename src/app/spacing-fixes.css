@@ -1,12 +1,12 @@
 /* Spacing normalization only. Visual theme and content remain unchanged. */
 
 :root {
-  --section-space: clamp(88px, 10vw, 150px);
-  --section-space-mobile: 72px;
+  --section-space: clamp(64px, 6.5vw, 104px);
+  --section-space-mobile: 56px;
   --content-gutter: 6vw;
 }
 
-/* Keep the major sections on one consistent vertical rhythm. */
+/* Keep every major section on a tighter, consistent top/bottom rhythm. */
 .manifesto,
 .current-role,
 .data-stage,
@@ -18,55 +18,52 @@
   padding-bottom: var(--section-space);
 }
 
-/* Reduce oversized internal gaps that were compounding section padding. */
+/* Prevent section headings from being pushed too far below the boundary. */
 .manifesto h2 {
-  margin-top: clamp(42px, 5vw, 72px);
+  margin-top: clamp(28px, 3vw, 44px);
 }
 
 .manifesto-copy {
-  margin-top: clamp(48px, 6vw, 84px);
+  margin-top: clamp(36px, 4vw, 56px);
 }
 
 .current-role__intro h2,
 .world-copy h2,
 .capability-title h2,
 .contact h2 {
-  margin-top: clamp(38px, 5vw, 68px);
+  margin-top: clamp(28px, 3vw, 44px);
 }
 
 .data-grid,
 .chapter-list,
 .venture-strip {
-  margin-top: clamp(52px, 6vw, 88px);
+  margin-top: clamp(40px, 4.5vw, 64px);
 }
 
 .world-copy > p:last-child {
-  margin-top: clamp(28px, 3.5vw, 48px);
+  margin-top: clamp(24px, 3vw, 38px);
 }
 
 .capability-list h3 {
-  margin-top: 44px;
+  margin-top: 38px;
 }
 
-/* The selected-work image is intentionally cinematic, but the cases below
-   should not feel disconnected from it. */
 .case-list article {
-  padding-top: clamp(48px, 5vw, 68px);
-  padding-bottom: clamp(48px, 5vw, 68px);
+  padding-top: clamp(44px, 4.5vw, 62px);
+  padding-bottom: clamp(44px, 4.5vw, 62px);
 }
 
-/* Contact was visually much looser than the rest of the page. */
 .contact {
   padding-top: var(--section-space);
-  padding-bottom: clamp(72px, 8vw, 100px);
+  padding-bottom: var(--section-space);
 }
 
 .contact-copy {
-  margin-top: clamp(42px, 5vw, 68px);
+  margin-top: clamp(34px, 4vw, 52px);
 }
 
 .contact-links {
-  margin-top: clamp(44px, 5vw, 68px);
+  margin-top: clamp(38px, 4vw, 56px);
 }
 
 @media (max-width: 960px) {
@@ -86,12 +83,12 @@
   }
 
   .hero {
-    padding-top: 112px;
-    padding-bottom: 56px;
+    padding-top: 104px;
+    padding-bottom: 48px;
   }
 
   h1 {
-    margin-top: 42px;
+    margin-top: 36px;
   }
 
   h1 > span:nth-child(2) {
@@ -99,12 +96,12 @@
   }
 
   h1 em {
-    margin: 20px 0 0;
+    margin: 18px 0 0;
   }
 
   .hero-lower {
-    margin: 42px 0 0;
-    gap: 28px;
+    margin: 36px 0 0;
+    gap: 26px;
   }
 
   .manifesto,
@@ -132,37 +129,37 @@
   .world-copy h2,
   .capability-title h2,
   .contact h2 {
-    margin-top: 30px;
+    margin-top: 24px;
   }
 
   .manifesto-copy {
     grid-template-columns: 1fr;
     gap: 18px;
-    margin: 36px 0 0;
+    margin: 30px 0 0;
   }
 
   .data-grid,
   .chapter-list,
   .venture-strip,
   .contact-links {
-    margin-top: 42px;
+    margin-top: 34px;
   }
 
   .data-grid article {
-    padding: 26px;
+    padding: 24px;
   }
 
   .data-grid p,
   .data-primary p {
-    margin-top: 38px;
+    margin-top: 34px;
   }
 
   .data-primary strong {
-    margin-top: 36px;
+    margin-top: 32px;
   }
 
   .world-copy > p:last-child {
-    margin-top: 28px;
+    margin-top: 24px;
   }
 
   .chapter-list article {
@@ -171,28 +168,28 @@
 
   .capability-list article {
     min-height: auto;
-    padding-top: 26px;
-    padding-bottom: 34px;
+    padding-top: 24px;
+    padding-bottom: 30px;
   }
 
   .capability-list h3 {
-    margin-top: 34px;
+    margin-top: 30px;
   }
 
   .case-list article {
-    padding-top: 42px;
-    padding-bottom: 42px;
+    padding-top: 38px;
+    padding-bottom: 38px;
   }
 
   .venture-strip > a {
-    min-height: 360px;
+    min-height: 350px;
   }
 
   .contact-copy {
-    margin: 36px 0 0;
+    margin: 30px 0 0;
   }
 
   .contact-links {
-    margin-top: 42px;
+    margin-top: 34px;
   }
 }
