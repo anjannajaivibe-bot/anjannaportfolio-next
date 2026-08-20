@@ -4,6 +4,7 @@ import VentureEnhancer from "./VentureEnhancer";
 import "./globals.css";
 import "./enhancements.css";
 import "./venture-enhancements.css";
+import "./spacing-fixes.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const spaceGrotesk = Space_Grotesk({
