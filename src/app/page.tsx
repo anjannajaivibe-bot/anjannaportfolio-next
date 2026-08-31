@@ -40,29 +40,6 @@ const cases = [
   },
 ];
 
-const personSchema = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Anjanna Margam",
-  url: "https://anjannaportfolio.jaivibe.com",
-  image: "https://anjannaportfolio.jaivibe.com/images/anjanna-margam.jpg",
-  jobTitle: "Marketing Executive",
-  worksFor: { "@type": "Organization", name: "Sri Supraja Infracon" },
-  sameAs: ["https://www.linkedin.com/in/anjanna-margam-b8076241"],
-  knowsAbout: [
-    "Retail merchandise planning",
-    "Digital growth",
-    "Search engine optimisation",
-    "Performance marketing",
-    "CRM workflows",
-    "Lead management",
-    "Next.js",
-    "Business analytics",
-    "Real estate marketing",
-    "Business strategy",
-  ],
-};
-
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
 }
@@ -70,8 +47,6 @@ function Arrow() {
 export default function Home() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
-
       <header className="topbar">
         <a className="monogram" href="#top" aria-label="Anjanna Margam home">AM<span>.</span></a>
         <p>Global commerce intelligence</p>
