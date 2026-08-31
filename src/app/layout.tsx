@@ -13,6 +13,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 const SITE_URL = "https://anjannaportfolio.jaivibe.com";
+const PERSON_ID = `${SITE_URL}/#person`;
+const WEBSITE_ID = `${SITE_URL}/#website`;
+const PROFILE_ID = `${SITE_URL}/#profilepage`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -33,7 +36,10 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Anjanna Margam", url: "/" }],
   creator: "Anjanna Margam",
+  publisher: "Anjanna Margam",
+  applicationName: "Anjanna Margam Portfolio",
   alternates: { canonical: "/" },
+  manifest: "/manifest.webmanifest",
   openGraph: {
     title: "Anjanna Margam | Marketing Executive & Digital Growth Strategist",
     description:
@@ -72,36 +78,73 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "Person",
-        "@id": `${SITE_URL}/#person`,
+        "@id": PERSON_ID,
         name: "Anjanna Margam",
         url: SITE_URL,
-        image: `${SITE_URL}/opengraph-image`,
+        image: {
+          "@type": "ImageObject",
+          "@id": `${SITE_URL}/#portrait`,
+          url: `${SITE_URL}/images/anjanna-margam.jpg`,
+          contentUrl: `${SITE_URL}/images/anjanna-margam.jpg`,
+          caption: "Anjanna Margam",
+        },
         jobTitle: "Marketing Executive",
+        email: "mailto:anjumargams@gmail.com",
+        telephone: "+91 96407 53929",
         description:
-          "Marketing executive with experience in retail planning, commercial strategy, digital growth, entrepreneurship and business transformation.",
+          "Marketing executive with experience in multinational retail planning, commercial strategy, digital growth, entrepreneurship and business transformation.",
+        worksFor: {
+          "@type": "Organization",
+          name: "Sri Supraja Infracon",
+          url: "https://srisuprajainfracon.com/",
+        },
+        sameAs: [
+          "https://www.linkedin.com/in/anjanna-margam-b8076241",
+          "https://www.jaivibe.com/",
+          "https://digitalmarketing.jaivibe.com/",
+        ],
         knowsAbout: [
           "Retail merchandise planning",
+          "Open-to-buy planning",
+          "Sales forecasting",
+          "Inventory allocation and replenishment",
+          "Commercial strategy",
           "Marketing strategy",
           "Digital growth",
+          "Search engine optimization",
+          "Performance marketing",
+          "CRM workflows",
+          "Lead management",
+          "Business analytics",
           "Real estate marketing",
+          "Hospitality marketing",
           "Business transformation",
         ],
+        subjectOf: {
+          "@type": "DigitalDocument",
+          name: "Anjanna Margam Consulting Resume",
+          url: `${SITE_URL}/Anjanna_Margam_Consulting_Resume.pdf`,
+        },
       },
       {
         "@type": "WebSite",
-        "@id": `${SITE_URL}/#website`,
+        "@id": WEBSITE_ID,
         url: SITE_URL,
         name: "Anjanna Margam Portfolio",
-        publisher: { "@id": `${SITE_URL}/#person` },
+        description: "Professional portfolio covering retail strategy, commercial planning, digital growth and business transformation.",
+        publisher: { "@id": PERSON_ID },
+        about: { "@id": PERSON_ID },
         inLanguage: "en-IN",
       },
       {
         "@type": "ProfilePage",
-        "@id": `${SITE_URL}/#profilepage`,
+        "@id": PROFILE_ID,
         url: SITE_URL,
         name: "Anjanna Margam Professional Portfolio",
-        mainEntity: { "@id": `${SITE_URL}/#person` },
-        isPartOf: { "@id": `${SITE_URL}/#website` },
+        description: "Professional profile, career history, capabilities, selected work and contact information for Anjanna Margam.",
+        mainEntity: { "@id": PERSON_ID },
+        about: { "@id": PERSON_ID },
+        isPartOf: { "@id": WEBSITE_ID },
         inLanguage: "en-IN",
       },
     ],
@@ -112,7 +155,7 @@ export default function RootLayout({
       <body>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }}
         />
         {children}
         <VentureEnhancer />
