@@ -11,8 +11,8 @@ const capabilities = [
 
 const chapters = [
   ["1997–2004", "Early career", "Began as a teacher in Telangana, followed by early work in Saudi Arabia before moving into merchandise and inventory planning."],
-  ["2004–2015", "Max Fashion · Saudi Arabia", "Merchandise and inventory planning in Landmark Group’s Eastern Province operations, including approximately SAR 600 million in sales and buying budgets, and support for regional store expansion."],
-  ["2015–2020", "Beside Group · Dubai", "Retail merchandise planning for international fashion brands across six markets, with responsibility for budgets, OTB, assortments, allocation and trading analysis."],
+  ["2004–2015", "Max Fashion · Eastern Region, Saudi Arabia", "Merchandise and inventory planning for Max Fashion in Saudi Arabia’s Eastern Region, including approximately SAR 600 million in sales and buying budgets, and support for regional store expansion."],
+  ["2015–2020", "Beside Group LLC · Dubai", "Merchandise planning for international fashion brands across six markets, in a portfolio representing 119 store operations. Responsibilities included budgets, OTB, assortments, allocation and trading analysis."],
   ["2020–present", "JaiVibe & real estate marketing", "Founded JaiVibe in 2020, expanding into websites, SEO, lead-generation and CRM workflows. Since 2026, also supporting real estate marketing at Sri Supraja Infracon."],
 ];
 
@@ -26,10 +26,10 @@ const cases = [
   },
   {
     id: "B",
-    label: "Beside Group · Dubai",
+    label: "Beside Group LLC · Dubai",
     title: "Merchandise planning across six markets.",
-    text: "Planned sales, buying, assortments, margins and inventory for international fashion brands including Diesel, Fred Perry, Scotch & Soda and Pinko across six markets.",
-    proof: "Six markets · Multi-brand portfolio",
+    text: "Planned sales, buying, assortments, margins and inventory for international fashion brands including Diesel, Fred Perry, Scotch & Soda and Pinko in a six-market portfolio representing 119 store operations.",
+    proof: "119 stores represented · 6 markets",
   },
   {
     id: "C",
@@ -65,7 +65,7 @@ export default function Home() {
             <p className="kicker"><span /> Merchandise planning · Commercial strategy · Digital growth</p>
             <h1><span>Merchandise planning.</span><span>Commercial strategy.</span><em>Digital growth.</em></h1>
             <div className="hero-lower">
-              <p>Anjanna Margam brings merchandise planning experience from Landmark Group’s Max Fashion and Beside Group into business strategy, websites, SEO, marketing and CRM-enabled lead generation in India.</p>
+              <p>Anjanna Margam brings merchandise planning experience from Max Fashion (Saudi Arabia, 2004–2015) and Beside Group LLC (Dubai, 2015–2020) into commercial strategy, websites, SEO, marketing and CRM-enabled lead generation in India.</p>
               <div className="hero-actions">
                 <a className="action action-light" href="#story">Enter the story <Arrow /></a>
                 <a className="action action-line" href="/Anjanna_Margam_Consulting_Resume.pdf" download>Resume ↓</a>
@@ -97,9 +97,9 @@ export default function Home() {
             <h2>Commercial planning meets digital execution.</h2>
           </div>
           <article className="current-role__card">
-            <span>JaiVibe since 2020 · Sri Supraja Infracon since 2026</span>
+            <span>Founder · JaiVibe since 2020 · Sri Supraja Infracon since 2026</span>
             <h3>Founder & Digital Growth Strategist</h3>
-            <p>Founded JaiVibe to develop business websites, search visibility, digital campaigns and CRM-based lead workflows. Since January 2026, also working on real estate and digital marketing strategy with Sri Supraja Infracon, connecting project information, online enquiries and sales follow-up.</p>
+            <p>Founded JaiVibe in 2020 to develop business websites, SEO, digital campaigns and CRM-based lead workflows. <strong>Real Estate &amp; Digital Marketing Strategist at Sri Supraja Infracon since January 2026</strong>, working on project positioning, online enquiries, CRM visibility and sales follow-up.</p>
             <ul className="current-role__points">
               <li>Website planning, WordPress and Next.js</li>
               <li>SEO, local search and digital campaigns</li>
@@ -120,9 +120,9 @@ export default function Home() {
             <article className="data-primary"><span>SAR</span><strong>600M</strong><p>Approximate sales and buying budgets managed for Max Fashion’s Eastern Province portfolio.</p></article>
             <article><strong>5 → 22</strong><p>Max Fashion Eastern Province store network expansion supported.</p></article>
             <article><strong>21</strong><p>Max Fashion store launches supported through planning and stock readiness.</p></article>
-            <article><strong>6</strong><p>Markets covered through Beside Group merchandise planning.</p></article>
+            <article><strong>119</strong><p>Store operations represented across the six-market Beside Group LLC portfolio.</p></article>
           </div>
-          <p className="evidence-note">These figures describe planning responsibilities and contributions documented in the professional resume, not personal ownership of stores or sales revenue.</p>
+          <p className="evidence-note">The Max Fashion figures describe planning responsibilities and contributions. The Beside Group LLC figure describes its wider portfolio representation, not stores personally owned or operated.</p>
         </section>
 
         <section className="world-stage" aria-label="International market experience">
