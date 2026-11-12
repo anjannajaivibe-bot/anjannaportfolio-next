@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Anjanna Margam, Marketing Executive, Retail Strategy and Digital Growth";
+export const alt = "Anjanna Margam, Retail Merchandise Planning and Digital Growth";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -82,7 +82,7 @@ export default function OpenGraphImage() {
               color: "#c9ff45",
             }}
           >
-            Marketing Executive
+            Merchandise Planning
           </div>
 
           <div
@@ -93,7 +93,7 @@ export default function OpenGraphImage() {
               color: "#c7c5bd",
             }}
           >
-            Retail Strategy · Digital Growth · Business Transformation
+            Retail Planning · Digital Strategy · CRM Systems
           </div>
         </div>
 
