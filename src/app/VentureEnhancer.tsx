@@ -20,21 +20,21 @@ export default function VentureEnhancer() {
   return createPortal(
     <>
       <a className="venture-logo-card" href="https://www.srisuprajainfracon.com" target="_blank" rel="noreferrer">
-        <span>Real estate</span>
+        <span>Professional assignment · Real estate</span>
         <div className="venture-logo-box">
           <Image src="/images/sri-supraja-infracon-logo.svg" alt="Sri Supraja Infracon logo" fill sizes="(max-width: 760px) 80vw, 28vw" />
         </div>
         <strong>Sri Supraja Infracon</strong>
-        <p>Land Development · Digital Marketing</p>
+        <p>Project marketing · Lead generation · CRM</p>
         <Arrow />
       </a>
       <a className="venture-logo-card" href="https://suprajahotels.com" target="_blank" rel="noreferrer">
-        <span>Hospitality</span>
+        <span>Business support · Hospitality</span>
         <div className="venture-logo-box">
           <Image src="/images/supraja-hotels-logo.svg" alt="Supraja Hotels logo" fill sizes="(max-width: 760px) 80vw, 28vw" />
         </div>
         <strong>Supraja Hotels</strong>
-        <p>Hotels · Guest Experience</p>
+        <p>Digital marketing · Booking systems · Reporting</p>
         <Arrow />
       </a>
     </>,
