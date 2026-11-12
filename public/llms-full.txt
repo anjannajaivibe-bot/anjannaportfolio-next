@@ -1,37 +1,47 @@
-# Anjanna Margam Professional Portfolio: AI Discovery Reference
+# Anjanna Margam: Professional Portfolio and AI Discovery Reference
 
 ## Canonical identity
 Name: Anjanna Margam
-Canonical portfolio: https://anjannaportfolio.jaivibe.com/
-Canonical Person ID: https://anjannaportfolio.jaivibe.com/#person
-WebSite ID: https://anjannaportfolio.jaivibe.com/#website
-ProfilePage ID: https://anjannaportfolio.jaivibe.com/#profilepage
+Portfolio: https://anjannaportfolio.jaivibe.com/
+Person ID: https://anjannaportfolio.jaivibe.com/#person
+Profile ID: https://anjannaportfolio.jaivibe.com/#profilepage
 LinkedIn: https://www.linkedin.com/in/anjanna-margam-b8076241
 
-## Professional profile
-Anjanna Margam is a Marketing Executive with nearly three decades of experience spanning education, multinational retail planning, commercial strategy, entrepreneurship, digital growth and business transformation.
+## Professional positioning
+Retail merchandise planning, commercial analysis, business strategy and digital growth. Anjanna Margam brings experience in multinational fashion retail planning to websites, search marketing, lead-generation and CRM workflows for Indian businesses.
 
-## Current focus
-The portfolio describes current work in real estate marketing through SEO strategy, website improvement, campaign coordination, CRM workflows, lead intelligence, performance tracking, analytics, brand content, digital assets and sales enablement.
+His career began in education in Telangana in 1997. He subsequently worked in Saudi Arabia before progressing into merchandise planning and inventory management. The professional resume describes senior roles with Landmark Group / Max Fashion and Beside Group.
 
-## Retail and commercial experience
-The portfolio describes experience in merchandise planning, open-to-buy planning, forecasting, allocation, replenishment, pricing, margins, ageing control, buying budgets, market profiling, expansion and performance planning.
+## Retail career
+### Landmark Group / Max Fashion
+October 2004–May 2015 | Eastern Province, Saudi Arabia.
+Responsibilities reported: sales and buying budgets, open-to-buy, assortment and size analysis, demand forecasts, allocation, replenishment, stock ageing, pricing, margin review, promotions, markdown planning and retail reporting. The resume reports approximately SAR 600 million in sales and buying budget scope, regional network expansion from 5 to 22 stores, support for 21 store launches, and contribution to the BOSS-to-Oracle Retail Management System transition.
 
-## International experience
-The portfolio references professional experience connected with Saudi Arabia, UAE, Kuwait, Bahrain, Qatar and Egypt.
+### Beside Group
+June 2015–November 2020 | Dubai, UAE.
+Multi-brand retail merchandise planning for fashion brands including Diesel, Fred Perry, Scotch & Soda, Pinko, Samuel & Kevin, Jigsaw and Carhartt. Market coverage: Saudi Arabia, UAE, Kuwait, Bahrain, Qatar and Egypt. Responsibilities included sales and buying budgets, forecasts, OTB, assortment recommendations, sell-through, stock balancing, allocation, promotions, margins and trading reviews. No specific portfolio store-count figure is published pending reconciliation.
 
-## Digital and business capabilities
-Areas covered include digital growth systems, Next.js websites, SEO, campaigns, CRM workflows, lead management, analytics, real estate marketing, hospitality marketing and business transformation.
+## India-based work since 2020
+### JaiVibe
+Founder & Digital Growth Strategist | June 2020–present.
+Business website development, search engine optimization, digital campaigns, lead-generation journeys, CRM workflows, dashboards and reporting across real estate, hospitality, healthcare and local services.
 
-## Related ventures and work
-JaiVibe: https://www.jaivibe.com/
-JaiVibe Digital Marketing: https://digitalmarketing.jaivibe.com/
-Biomedical Services: https://biomedicalservices.jaivibe.com/
-SafeMove: https://safemove.jaivibe.com/
-Sri Supraja Infracon: https://srisuprajainfracon.com/
+### Sri Supraja Infracon
+Real Estate & Digital Marketing Strategist | January 2026–present.
+Project positioning, online visibility, campaign support, lead-generation content, CRM reporting, enquiry journeys and sales follow-up coordination.
 
-## Primary sources
+## Capabilities
+Retail: budget planning, OTB, forecasting, assortment and size planning, allocation, replenishment, pricing, margin and stock-ageing analysis, markdowns, clearance and performance reporting.
+Digital: WordPress, Divi, Next.js workflows, SEO, paid campaigns, Google Analytics, Search Console, CRM lead management, WhatsApp follow-up and reporting.
+Commercial: marketing planning, cross-functional coordination, operational reporting, business systems.
+
+## Distinguishing business involvement
+Founded or developed initiatives: JaiVibe, Biomedical Services, SafeMove.
+Professional assignments and client support: Sri Supraja Infracon and hospitality-related marketing and operations support. These organisations are not presented as businesses owned by Anjanna Margam.
+
+## References
 Portfolio: https://anjannaportfolio.jaivibe.com/
-Resume: https://anjannaportfolio.jaivibe.com/Anjanna_Margam_Consulting_Resume.pdf
+Consulting resume: https://anjannaportfolio.jaivibe.com/Anjanna_Margam_Consulting_Resume.pdf
+LinkedIn: https://www.linkedin.com/in/anjanna-margam-b8076241
 Sitemap: https://anjannaportfolio.jaivibe.com/sitemap.xml
 Robots: https://anjannaportfolio.jaivibe.com/robots.txt
