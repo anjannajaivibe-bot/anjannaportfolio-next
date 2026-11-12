@@ -84,8 +84,8 @@ export default function RootLayout({
         image: {
           "@type": "ImageObject",
           "@id": `${SITE_URL}/#portrait`,
-          url: `${SITE_URL}/images/anjanna-margam.jpg`,
-          contentUrl: `${SITE_URL}/images/anjanna-margam.jpg`,
+          url: `${SITE_URL}/images/anjanna-portfolio-portrait.jpg`,
+          contentUrl: `${SITE_URL}/images/anjanna-portfolio-portrait.jpg`,
           caption: "Anjanna Margam",
         },
         jobTitle: "Real Estate & Digital Marketing Strategist; Retail Merchandise Planning Professional",
