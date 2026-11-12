@@ -29,7 +29,7 @@ h1 em { display:block; margin:3vh 0 0 28vw; color:var(--acid); font-family:Georg
 .action { display:inline-flex; justify-content:space-between; align-items:center; min-width:190px; padding:16px 18px; border:1px solid var(--line); font-size:.78rem; }
 .action-light { color:var(--ink); background:var(--paper); }
 .action-line:hover { border-color:var(--acid); color:var(--acid); }
-.portrait-slice { position:absolute; z-index:1; top:18%; right:4vw; width:min(25vw,330px); aspect-ratio:.72; overflow:hidden; opacity:.48; filter:grayscale(1) contrast(1.08); clip-path:polygon(22% 0,100% 0,79% 100%,0 100%); }
+.portrait-slice { position:absolute; z-index:1; top:18%; right:4vw; width:min(26vw,350px); aspect-ratio:.72; overflow:hidden; opacity:.90; filter:none; clip-path:polygon(22% 0,100% 0,79% 100%,0 100%); }
 .portrait-slice::after { position:absolute; inset:0; content:""; background:linear-gradient(to bottom,transparent 48%,var(--ink)); }
 .portrait-slice img { object-fit:cover; object-position:50% 20%; }
 .portrait-slice p { position:absolute; z-index:2; bottom:18px; left:25%; font-size:.7rem; }
