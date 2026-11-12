@@ -73,7 +73,7 @@ export default function Home() {
             </div>
           </div>
           <div className="portrait-slice">
-            <Image src="/images/anjanna-margam.jpg" alt="Anjanna Margam, retail merchandise planning and digital growth professional" fill priority sizes="(max-width: 760px) 42vw, 28vw" />
+            <Image src="/images/anjanna-portfolio-portrait.jpg" alt="Portrait of Anjanna Margam in a charcoal suit and white shirt"  fill priority sizes="(max-width: 760px) 42vw, 28vw" />
             <p><span>Based in</span> Hyderabad, India</p>
           </div>
           <div className="hero-footer"><span>Scroll to explore</span><i /></div>
