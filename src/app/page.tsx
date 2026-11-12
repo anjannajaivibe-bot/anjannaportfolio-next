@@ -21,7 +21,7 @@ const cases = [
     id: "A",
     label: "Max Fashion · Saudi Arabia",
     title: "Planning for regional store expansion.",
-    text: "Managed sales and buying budgets, OTB, allocation, replenishment, pricing and markdown planning. Supported the network’s growth from 5 to 22 stores and planning readiness for 21 store launches.",
+    text: "Managed sales and buying budgets, OTB, allocation, replenishment and markdown planning. Supported growth from 5 to 22 stores, inventory readiness for 21 launches and the BOSS-to-Oracle Retail system transition.",
     proof: "Approx. SAR 600M budget scope",
   },
   {
