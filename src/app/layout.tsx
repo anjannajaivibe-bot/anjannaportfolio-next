@@ -20,19 +20,19 @@ const PROFILE_ID = `${SITE_URL}/#profilepage`;
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Anjanna Margam | Marketing Executive, Retail Strategy & Digital Growth",
+    default: "Anjanna Margam | Retail Merchandise Planning & Digital Strategy",
     template: "%s | Anjanna Margam",
   },
   description:
-    "Anjanna Margam is a Marketing Executive with nearly three decades of experience across multinational retail planning, digital growth, entrepreneurship and business transformation.",
+    "Anjanna Margam brings international retail merchandise planning experience at Max Fashion and Beside Group to business strategy, SEO, websites and CRM-based digital growth in India.",
   keywords: [
     "Anjanna Margam",
-    "Marketing Executive Hyderabad",
+    "retail merchandise planning professional",
     "retail planning consultant",
     "merchandise planning consultant",
     "digital growth strategist",
     "real estate marketing professional",
-    "business transformation",
+    "business systems consulting",
   ],
   authors: [{ name: "Anjanna Margam", url: "/" }],
   creator: "Anjanna Margam",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   manifest: "/manifest.webmanifest",
   openGraph: {
-    title: "Anjanna Margam | Marketing Executive & Digital Growth Strategist",
+    title: "Anjanna Margam | Merchandise Planning & Digital Growth",
     description:
-      "Nearly three decades across multinational retail planning, commercial strategy, entrepreneurship and modern digital execution.",
+      "International merchandise planning experience across Max Fashion and Beside Group, with digital strategy and website projects through JaiVibe.",
     url: "/",
     siteName: "Anjanna Margam Portfolio",
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Anjanna Margam, Marketing Executive, Retail Strategy and Digital Growth",
+        alt: "Anjanna Margam, Retail Merchandise Planning and Digital Growth",
       },
     ],
     locale: "en_IN",
@@ -59,9 +59,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anjanna Margam | Marketing Executive & Digital Growth Strategist",
+    title: "Anjanna Margam | Merchandise Planning & Digital Growth",
     description:
-      "Multinational retail planning, commercial strategy and digital growth backed by nearly three decades of professional experience.",
+      "Merchandise planning, sales and buying budgets, forecasting and stock management, followed by practical digital marketing and business systems work.",
     images: ["/opengraph-image"],
   },
   robots: { index: true, follow: true },
@@ -88,16 +88,15 @@ export default function RootLayout({
           contentUrl: `${SITE_URL}/images/anjanna-margam.jpg`,
           caption: "Anjanna Margam",
         },
-        jobTitle: "Marketing Executive",
+        jobTitle: "Retail Merchandise Planning Professional and Digital Growth Strategist",
         email: "mailto:anjumargams@gmail.com",
         telephone: "+91 96407 53929",
         description:
-          "Marketing executive with experience in multinational retail planning, commercial strategy, digital growth, entrepreneurship and business transformation.",
-        worksFor: {
-          "@type": "Organization",
-          name: "Sri Supraja Infracon",
-          url: "https://srisuprajainfracon.com/",
-        },
+          "Retail merchandise planning professional with experience at Max Fashion and Beside Group, and founder of JaiVibe, focused on digital marketing and business systems in India.",
+        worksFor: [
+          { "@type": "Organization", name: "JaiVibe", url: "https://jaivibe.com/" },
+          { "@type": "Organization", name: "Sri Supraja Infracon", url: "https://srisuprajainfracon.com/" },
+        ],
         sameAs: [
           "https://www.linkedin.com/in/anjanna-margam-b8076241",
           "https://www.jaivibe.com/",
@@ -131,7 +130,7 @@ export default function RootLayout({
         "@id": WEBSITE_ID,
         url: SITE_URL,
         name: "Anjanna Margam Portfolio",
-        description: "Professional portfolio covering retail strategy, commercial planning, digital growth and business transformation.",
+        description: "Professional portfolio covering international retail merchandise planning, commercial analysis, websites, SEO and CRM workflows.",
         publisher: { "@id": PERSON_ID },
         about: { "@id": PERSON_ID },
         inLanguage: "en-IN",
