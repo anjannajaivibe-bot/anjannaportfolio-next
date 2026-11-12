@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | Anjanna Margam",
   },
   description:
-    "Anjanna Margam brings international retail merchandise planning experience at Max Fashion and Beside Group to business strategy, SEO, websites and CRM-based digital growth in India.",
+    "Anjanna Margam brings retail planning experience from Max Fashion (2004–2015) and Beside Group LLC (2015–2020), plus digital growth work through JaiVibe and Sri Supraja Infracon.",
   keywords: [
     "Anjanna Margam",
     "retail merchandise planning professional",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Anjanna Margam | Merchandise Planning & Digital Growth",
     description:
-      "International merchandise planning experience across Max Fashion and Beside Group, with digital strategy and website projects through JaiVibe.",
+      "Merchandise planning at Max Fashion and Beside Group LLC, with commercial analysis, digital strategy and website projects through JaiVibe.",
     url: "/",
     siteName: "Anjanna Margam Portfolio",
     images: [
@@ -88,11 +88,11 @@ export default function RootLayout({
           contentUrl: `${SITE_URL}/images/anjanna-margam.jpg`,
           caption: "Anjanna Margam",
         },
-        jobTitle: "Retail Merchandise Planning Professional and Digital Growth Strategist",
+        jobTitle: "Real Estate & Digital Marketing Strategist; Retail Merchandise Planning Professional",
         email: "mailto:anjumargams@gmail.com",
         telephone: "+91 96407 53929",
         description:
-          "Retail merchandise planning professional with experience at Max Fashion and Beside Group, and founder of JaiVibe, focused on digital marketing and business systems in India.",
+          "Retail merchandise planning experience at Max Fashion (Saudi Arabia, 2004–2015) and Beside Group LLC (Dubai, 2015–2020; six-market portfolio representing 119 stores). Founder of JaiVibe and Real Estate & Digital Marketing Strategist at Sri Supraja Infracon.",
         worksFor: [
           { "@type": "Organization", name: "JaiVibe", url: "https://jaivibe.com/" },
           { "@type": "Organization", name: "Sri Supraja Infracon", url: "https://srisuprajainfracon.com/" },
